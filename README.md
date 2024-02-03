@@ -47,6 +47,6 @@ Este USER LED de color azul puede ser conectado  directamente  al pin RD0 si se 
 Podemos visualizar de forma grafica los compoentes en placa incorporados en nuesta entrenadora Mini de PIC18 :
 
 ![image](https://github.com/SerCandio/Mini-PIC18F-TRAINER/assets/106831539/5539ed15-6b1f-49a9-93fc-dba5842c7a42)
-
+<center><B>Figura 2.- Componentes basicos: entrenadora basica de PIC</B></center>
 <h2 dir="auto" tabindex="-1">AUTOR</h2>
 - Candiotti L. Sergio (Lima, Peru)
