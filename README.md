@@ -48,5 +48,7 @@ Podemos visualizar de forma grafica los compoentes en placa incorporados en nues
 
 ![image](https://github.com/SerCandio/Mini-PIC18F-TRAINER/assets/106831539/5539ed15-6b1f-49a9-93fc-dba5842c7a42)
 <center><B>Figura 2.- Componentes basicos: entrenadora basica de PIC</B></center>
+<h2 dir="auto" tabindex="-1">Nota</h2>
+Los archivos de proyecto de EAGLE para poder modificar y/o manufacturar esta PCB estan <B><A HREF="https://github.com/SerCandio/Mini-PIC18F-TRAINER/tree/main/EAGLE%20CAD%20FILES">aqui</A></B>
 <h2 dir="auto" tabindex="-1">AUTOR</h2>
 - Candiotti L. Sergio (Lima, Peru)
