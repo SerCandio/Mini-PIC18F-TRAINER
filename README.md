@@ -71,6 +71,8 @@ En el siguiente <B><A HREF="https://www.youtube.com/watch?v=uNbUmXdRPzk">video</
 
 [![VIDEO](https://img.youtube.com/vi/uNbUmXdRPzk/0.jpg)](https://www.youtube.com/watch?v=uNbUmXdRPzk)
 
+Si deseamos los archivos de codigo fuente con puerto USB incluido, se encuentran <B><A HREF="https://github.com/SerCandio/Microcontrolador-PIC18F">aqui</A></B> :
+
 <h2 dir="auto" tabindex="-1">Nota</h2>
 Los archivos de proyecto de EAGLE para poder modificar y/o manufacturar esta PCB estan <B><A HREF="https://github.com/SerCandio/Mini-PIC18F-TRAINER/tree/main/EAGLE%20CAD%20FILES">aqui</A></B>
 <h2 dir="auto" tabindex="-1">AUTOR</h2>
