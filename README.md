@@ -30,7 +30,9 @@ Este LED1 de color verde nos indica que la tarjeta por consiguiente el microcont
 
 <B>6.-Conector USB Mini Type B </B>
 
-Este USB plug esta directamente conectado a los pines  <B>D+</B> y <B>D-</B> o 24 y 23 del PIC18F. Provee una interfaz de comunicacion de alta velocidad tipo USB- CDC del PIC con la PC que puede actuar como host. Tenga en cuenta que este tipo de comunicacion se monta en un puerto COM de la PC como si se tratase de comunicacion serie UART
+Este USB plug esta directamente conectado a los pines  <B>D+</B> y <B>D-</B> o 24 y 23 del PIC18F. Provee una interfaz de comunicacion de alta velocidad tipo USB- CDC del PIC con la PC que puede actuar como host. Tenga en cuenta que este tipo de comunicacion se monta en un puerto COM de la PC como si se tratase de comunicacion serie UART . 
+
+En este <B><A HREF="https://www.usb.org/">Link</A></B> se habla mas acerca de la especificacion USB.
 
 <B>7.-Pines de programacion ICSP</B>
 
