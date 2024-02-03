@@ -3,7 +3,7 @@ Tarjeta entrenadora de desarrollo básica con pines libres GPIO, puerto USB CDC 
 
 ![image](https://github.com/SerCandio/Mini-PIC18F-TRAINER/assets/106831539/cd642af2-6dcd-42de-b466-ebb15fab4111)
 
-<B>Figura 1.- Vista general de la entrenadora basica de PIC</B>
+<B><I>Figura 1.- Vista general de la entrenadora basica de PIC</I></B>
 
 <h2 dir="auto" tabindex="-1">DESCRIPCION Y CARACTERISTICAS</h2>
 <P>Puede visualizar una referencia del plano esquematico de la PCB aqui: <B><A HREF="https://github.com/SerCandio/Mini-PIC18F-TRAINER/blob/main/Esquemas%20Schematic/Min_PIC_Trailer_PDF_BN.pdf">Min_PIC_Trailer_PDF_BN.pdf</A></B></P>
@@ -42,12 +42,35 @@ El DIP SWITCH SW1 permite dar salida a los pines de programacion mediante la PIC
 
 Este USER LED de color azul puede ser conectado  directamente  al pin RD0 si se coloca el jumper encima, permite hacer codigos de prueba (ex. blinkeo ON/OFF), como bandera de error o algun otro uso personalizado que el usuario le pueda dar.
 
-<h2 dir="auto" tabindex="-1">COMPONENTES EN PLACA(Descripcion grafica)</h2>
+<B>9.-JUMPER Selector de Volaje</B>
+
+Este jumper de tipo <B><I>pin header</I></B> es capaz de seleccionar el voltaje de suministro, la tarjeta <B>Mini-PIC18F Trainer</B> para que sea alimentado por fuente externa (bornera color verde), por la PICKIT 3 o por el USB proveniente de la PC. En nuestro caso :
+
+- Alimentacion por fuente externa (<B>SI</B>)
+- Alimentacion por PICKIT (<B>SI</B>)
+- Alimentacion por USB (<B>NO</B>)
+
+<h2 dir="auto" tabindex="-1">PRECAUCION <img src="https://github.com/SerCandio/Mini-PIC18F-TRAINER/assets/106831539/ca45f6f3-578d-45d0-bedd-07b2afdd2be8"></h2>
+
+Debe asegurarse que el PICKIT 3 actue como sensor de voltaje en su pin <B><I>VDD</I></B> haciendo en MPLAB (IDE /IPE) como se muestra:
+
+![image](https://github.com/SerCandio/Mini-PIC18F-TRAINER/assets/106831539/b7142562-cb13-4e22-96e4-63deb5a92e8c)
+
+<B><I>Figura 2.- Opciones de alimentacion del apartado "POWER" del IDE</I></B>
+<p>Asegurese que la opcion <B><I>Power Tarjet from PICkit3</B></I> este deshabilitada. Caso contrario, podria dañarse el programador o incluso la PC.</p>
+
+<h2 dir="auto" tabindex="-1">COMPONENTES EN PLACA(Descripcion grafica)</h2> 
 
 Podemos visualizar de forma grafica los compoentes en placa incorporados en nuesta entrenadora Mini de PIC18 :
 
-![image](https://github.com/SerCandio/Mini-PIC18F-TRAINER/assets/106831539/5539ed15-6b1f-49a9-93fc-dba5842c7a42)
-<center><B>Figura 2.- Componentes basicos: entrenadora basica de PIC</B></center>
+![image](https://github.com/SerCandio/Mini-PIC18F-TRAINER/assets/106831539/3fc8c751-18cd-4fac-ad2a-d8b89baff10f)
+<center><B><I>Figura 3.- Componentes basicos: entrenadora basica de PIC</I></B></center>
+
+<h2 dir="auto" tabindex="-1">PRUEBAS Y FUNCIONAMIENTO</h2>
+En el siguiente video incrustado podemos ver una prueba de funcionamiento de la placa entrenadora:
+
+[![VIDEO](https://img.youtube.com/vi/uNbUmXdRPzk/0.jpg)](https://www.youtube.com/watch?v=uNbUmXdRPzk)
+
 <h2 dir="auto" tabindex="-1">Nota</h2>
 Los archivos de proyecto de EAGLE para poder modificar y/o manufacturar esta PCB estan <B><A HREF="https://github.com/SerCandio/Mini-PIC18F-TRAINER/tree/main/EAGLE%20CAD%20FILES">aqui</A></B>
 <h2 dir="auto" tabindex="-1">AUTOR</h2>
