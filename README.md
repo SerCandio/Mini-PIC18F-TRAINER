@@ -43,5 +43,10 @@ El DIP SWITCH SW1 permite dar salida a los pines de programacion mediante la PIC
 Este USER LED de color azul puede ser conectado  directamente  al pin RD0 si se coloca el jumper encima, permite hacer codigos de prueba (ex. blinkeo ON/OFF), como bandera de error o algun otro uso personalizado que el usuario le pueda dar.
 
 <h2 dir="auto" tabindex="-1">COMPONENTES EN PLACA</h2>
-<p>Podemos visualizar de forma grafica los compoentes en placa incorporados en nuesta : Entrenadora Mini de PIC18 - > Mini-PIC18F-TRAINER</p>
 
+Podemos visualizar de forma grafica los compoentes en placa incorporados en nuesta entrenadora Mini de PIC18 :
+
+![image](https://github.com/SerCandio/Mini-PIC18F-TRAINER/assets/106831539/5539ed15-6b1f-49a9-93fc-dba5842c7a42)
+
+<h2 dir="auto" tabindex="-1">AUTOR</h2>
+- Candiotti L. Sergio (Lima, Peru)
