@@ -67,9 +67,9 @@ Podemos visualizar de forma grafica los compoentes en placa incorporados en nues
 <center><B><I>Figura 3.- Componentes basicos: entrenadora basica de PIC</I></B></center>
 
 <h2 dir="auto" tabindex="-1">PRUEBAS Y FUNCIONAMIENTO</h2>
-En el siguiente <B><A HREF="https://www.youtube.com/watch?v=uNbUmXdRPzk">video</A></B> incrustado podemos ver una prueba de funcionamiento de la placa entrenadora:
+En el siguiente <B><A HREF="https://youtu.be/mNRTedm4bW8">video</A></B> incrustado podemos ver una prueba de funcionamiento de la placa entrenadora:
 
-[![VIDEO](https://img.youtube.com/vi/uNbUmXdRPzk/0.jpg)](https://www.youtube.com/watch?v=uNbUmXdRPzk)
+[![VIDEO](https://img.youtube.com/vi/mNRTedm4bW8/0.jpg)](https://youtu.be/mNRTedm4bW8)
 
 Si deseamos los archivos de codigo fuente con puerto USB incluido, se encuentran <B><A HREF="https://github.com/SerCandio/Microcontrolador-PIC18F">aqui</A></B> :
 
